@@ -97,7 +97,7 @@ public class FirmScrutinyImplTest {
     private File createTempFileWithProvidedFirmIDs(List<String> listOfFirms) throws IOException {
         File input = temporaryFolder.newFolder("junit")
                 .toPath()
-                .resolve("scrutinyFirms_" + getDate() + "123.txt")
+                .resolve("scrutinyFirms_" + getDate() + ".txt")
                 .toFile();
 
         try (FileWriter writer = new FileWriter(input)) {
