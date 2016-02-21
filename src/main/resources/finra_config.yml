@@ -1,0 +1,5 @@
+fileAbsolutePath: /user/finra/scrutinyFirms_{today}.txt
+firmsAlwaysUnderScrutiny:
+    - 4390116
+    - 8675309
+    - 7365000
